@@ -1,5 +1,5 @@
 <template lang="html">
-  <p v-on:click="handleClick">{{country.name}}</p>
+  <option v-on:click="handleClick" :value="country">{{country.name}}</option>
 </template>
 
 <script>
